@@ -1,0 +1,7 @@
+@import "modern-normalize/modern-normalize.css";
+
+/* Global project styles can be added below */
+
+html {
+    font-family: "Open Sans", sans-serif;
+}

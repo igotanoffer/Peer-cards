@@ -1,0 +1,53 @@
+// ReactApp components styles
+.react-app-header {
+    height: 70px;
+    background-color: #498fe4;
+}
+
+.react-app-content {
+    padding: 30px 80px;
+    background-color: #fbfbfb;
+}
+
+.react-app-content-heading {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    color: #333;
+}
+
+// ReactFilters components styles
+.react-filters {
+    text-transform: uppercase;
+}
+
+.react-filters-label {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.67;
+    color: #aaa;
+}
+
+.react-filters-days {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.react-filters-day {
+    padding: 6px 12px;
+    background-color: #fff;
+}
+
+.react-filters-day--selected {
+    border: 1px solid #498fe4;
+}
+
+// ReactPeerCard components styles
+.react-peer-card {
+    background-color: #fff;
+    padding: 16px;
+    display: inline-block;
+}
+
