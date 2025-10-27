@@ -21,15 +21,15 @@ const emit = defineEmits<{
     (e: 'selectDay', day: DayOption): void;
 }>();
 
-const dayOptions = [
-    "All",
-    "Mon",
-    "Tue",
-    "Wed",
-    "Thu",
-    "Fri",
-    "Sat",
-    "Sun",
+const dayOptions: DayOption[] = [
+    'All',
+    'Mon',
+    'Tue',
+    'Wed',
+    'Thu',
+    'Fri',
+    'Sat',
+    'Sun',
 ]
 
 const isDaySelected = (day: DayOption) => {
