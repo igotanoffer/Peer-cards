@@ -2,14 +2,14 @@ import React from 'react';
 import type { DayOption } from '../types/common';
 
 const dayOptions: DayOption[] = [
-    "All",
-    "Mon",
-    "Tue",
-    "Wed",
-    "Thu",
-    "Fri",
-    "Sat",
-    "Sun",
+    'All',
+    'Mon',
+    'Tue',
+    'Wed',
+    'Thu',
+    'Fri',
+    'Sat',
+    'Sun',
 ];
 
 export function ReactFilters({ selectedDays, onSelectDay }: {
